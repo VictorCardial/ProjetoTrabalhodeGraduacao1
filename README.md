@@ -25,6 +25,11 @@ O objetivo do trabalho é desenvolver uma aplicação web/ mobile que se configu
 O presente trabalho está estruturado em seis Capítulos, cujo conteúdo é sucintamente apresentado a seguir: No Capítulo 2 é feita a fundamentação das tecnologias... O Capítulo 3 apresenta o desenvolvimento da solução... No Capítulo 4 são apresentados os resultados ... O Capítulo 5 apresenta as considerações finais deste trabalho a partir da análise dos resultados obtidos...
 
 # 2.Fundamentação Técnica
+Este capítulo apresentará os requisitos da aplicação levantados junto ao cliente para que suas necessidades sejam satisfeitas e as tecnologias que compreenderão uma proposta de solução.
+
+Dentre os requisitos solicitados pelo cliente estão: Aplicação responsiva que se adapte a um grande número de dispositivos para maior alcance do público. Uma base de dados sólida que dê suporte a todas as necessidades, que vão desde cadastrar matérias primas para a produção, até o registro e histórico de vendas realizadas, passando por cadastro de clientes. Aplicação que dê suporte a transações financeiras. Aplicação com boa usabilidade visando uma experiência intuitiva e agradável ao cliente. Deve-se garantir a segurança e integridade dos dados.
+
+(em construção)
 -Levantamento de requisitos
 -Tecnologias utilizadas e justificativas
 -Soluções existentes/ similares
