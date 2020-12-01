@@ -64,6 +64,8 @@ O Model é a camada responsável pelo acesso e manipulação dos dados da aplica
 A View é a interface que será apresentada ao usuário, contém os arquivos de formatação da página.
 O Controller, faz a comunicação entre o Model e o View. Ele recebe as requisições dos usuários, utiliza a camada Model para obter os dados e posteriormente utiliza a View para renderizar a saída das informações para os mesmos.
 
+![mvc](https://user-images.githubusercontent.com/61794577/100802190-cfc2d600-3407-11eb-948b-d68248f8d11b.jpg)
+
 
 # Referências
 
