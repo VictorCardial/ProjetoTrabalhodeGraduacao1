@@ -19,7 +19,7 @@ Segundo estudos mais recentes publicados pela UNCTAD (Conferência das Nações 
 A ABComm teve a oportunidade de participar das últimas duas edições do evento na qual de acordo com análise do grupo estima-se que com relação as vendas para o e-commerce que inclui vendas B2B (bussiness-to-bussinnes) e B2C (bussinnes-to-consumer), elas foram responsáveis por 30% do produto interno bruto global do ano.
 
 ## 1.1. Objetivo do Trabalho
-O objetivo do trabalho é desenvolver uma aplicação web/ mobile que se configure como um e-commerce através da utilização de tecnologias responsivas.
+O objetivo do trabalho é desenvolver uma aplicação web/ mobile que se configure como um e-commerce para a venda de prato gourmet através da utilização de tecnologias responsivas.
 
 ## 1.2. Conteúdo do Trabalho
 O presente trabalho está estruturado em seis Capítulos, cujo conteúdo é sucintamente apresentado a seguir: No Capítulo 2 é feita a fundamentação das tecnologias... O Capítulo 3 apresenta o desenvolvimento da solução... No Capítulo 4 são apresentados os resultados ... O Capítulo 5 apresenta as considerações finais deste trabalho a partir da análise dos resultados obtidos...
