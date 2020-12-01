@@ -27,16 +27,43 @@ O presente trabalho está estruturado em seis Capítulos, cujo conteúdo é suci
 # 2.Fundamentação Técnica
 Este capítulo apresentará os requisitos da aplicação levantados junto ao cliente para que suas necessidades sejam satisfeitas e as tecnologias que compreenderão uma proposta de solução.
 
-Dentre os requisitos solicitados pelo cliente estão: Aplicação responsiva que se adapte a um grande número de dispositivos para maior alcance do público. Uma base de dados sólida que dê suporte a todas as necessidades, que vão desde cadastrar matérias primas para a produção, até o registro e histórico de vendas realizadas, passando por cadastro de clientes. Aplicação que dê suporte a transações financeiras. Aplicação com boa usabilidade visando uma experiência intuitiva e agradável ao cliente. Deve-se garantir a segurança e integridade dos dados.
+# 2.1 Levantamento de Requisitos do Usuário
+Sistema no qual seja possível cadastrar usuários e seus dados pessoais para que os mesmos possam interagir com as mais diversas funcionalidades da aplicação e estarem realizando a compra e encomenda dos pratos.
+Deverá ser possível também realizar os cadastros dos pratos bem como os insumos necessários para o seu preparo.
+Manter um registro e histórico de vendas dos pratos.
+A aplicação também deverá suportar transações financeiras para que a compra dos pratos seja possível e facilite a interação do usuário com a empresa.
+A aplicação também deverá conter uma agenda com um cronograma dos pedidos e entregas que serão realizados para auxiliar o chef no preparo e organização da rotina de trabalho.
 
-(em construção)
--Levantamento de requisitos
--Tecnologias utilizadas e justificativas
--Soluções existentes/ similares
-# 2.1. Tecnologia A
-Texto....
-# 2.2 Tecnologia B
-Texto...
+# 2.2 Tecnologias utilizadas e justificativas
+Na composição e desenvolvimento do projeto serão implementadas tecnologias como: Javascript, React, React Native, Node.Js, MySQL.
+
+# 2.2.1 Javascript
+O JavaScript é uma linguagem de programação de alto-nível criada em 1995 por Brendan Eich.
+Será adotada da implementação por permitir a criação de páginas web com vários elementos de alto nível. Possuir uma curva de aprendizado dinâmica. Permitir a criação de aplicações híbridas através de seus frameworks, ou seja, possibilita a compatibilidade com vários navegadores e plataformas, viabilizando a abrangência de um grande público em conformidade com os requisitos definidos pelo cliente. Mais rápido e mais leve que outras linguagens de programação.
+
+# 2.2.2 React 
+Desenvolvido e lançado pelo Facebook em 2013 como uma ferramenta de código aberto. Hoje o React é a biblioteca mais popular do JavaScript por ter uma série de vantagens em sua utilização para a criação de web apps. Voltada para a parte de view das aplicações, as tecnologias que a implementam costumam ser de fácil utilização e criam uma interface eficiente para o usuário.
+Essa tecnologia também permite o reaproveitamento de componentes e código.
+
+# 2.2.3 React Native
+Lançado pelo facebook em 2015 o React Native é um framework baseado no React, para a criação e desenvolvimento mobile, voltado tanto para Android quanto para IOS, utilizando o JavaScript.
+Os motivos para a sua adesão se assemelham aos das tecnologias já mencionadas anteriormente. Sendo eles: Rápida curva de aprendizagem, com um código legível e de fácil compreensão. Viabilidade e agilidade no ciclo de desenvolvimento pois grande parte do código é reaproveitado.
+
+# 2.2.4 Node.js
+Node.js poder ser compreendido como um ambiente de execução javascript server-side. Ele possibilita a criação de aplicações standalone em uma máquina, eliminando a dependência do browser para a execução. Dentre as vantagens que motivam sua adoção estão a sua alta capacidade de escala. Flexibilidade, possui o NPM (node package manager), um poderoso gerenciador de pacotes para fazer integração com banco de dados. Leveza, pois subir uma aplicação implementando o Node.js não exige muitos recursos computacionais. Viabiliza o deploy se utilizado em conjunto com outras ferramentas como o Docker, pois há um ganho de velocidade na replicação das máquinas, algo importante para ambientes escaláveis.
+
+# 2.2.5 MySQL
+Desenvolvido por uma empresa sueca chamada MySQL AB em 1994, o MySQL caracteriza-se como um Banco de Dados relacional. Dentre os motivos que impulsionam sua adoção estão o fato de ser uma ferramenta de código aberto. Compatibilidade com diversas plataformas. Garante um alto desempenho e velocidade além de cumprir com requisitos de segurança, onde recursos de verificação e criptografia de senhas estão disponíveis.
+
+# 3. Desenvolvimento
+Este capítulo compreenderá os conceitos acerca do desenvolvimento da aplicação.
+
+# 3.1 Arquitetura do Sistema
+Formulado por Trygve Reenskaug em 1979 a arquitetura Model-view-controller (MVC) pode ser caracterizada como um padrão de arquitetura de software popular no desenvolvimento web. Seu princípio consiste na divisão da aplicação em 3 camadas (Model-view-controller), interconectadas entre si. Esse padrão de arquitetura permite a separação da interface do usuário das regras de negócio, o que traz uma series de benefícios, como: reutilização de código e facilidade na manutenção.
+O Model é a camada responsável pelo acesso e manipulação dos dados da aplicação, nela estão as funções de consultas a base de dados.
+A View é a interface que será apresentada ao usuário, contém os arquivos de formatação da página.
+O Controller, faz a comunicação entre o Model e o View. Ele recebe as requisições dos usuários, utiliza a camada Model para obter os dados e posteriormente utiliza a View para renderizar a saída das informações para os mesmos.
+
 
 # Referências
 
@@ -54,3 +81,10 @@ https://news.comschool.com.br/a-historia-do-e-commerce-no-brasil/#:~:text=%20A%2
 
 https://neilpatel.com/br/blog/e-commerce-no-brasil/
 https://abcomm.org/institucional/
+O que é JavaScript (hostinger.com.br)
+O Que é React e Como Funciona? - Guia para Iniciantes (hostinger.com.br)
+O que é React Native? | Brasil Code |
+Node.js - O que é, como funciona e quais as vantagens (opus-software.com.br)
+O Que É MySQL - Um Guia Para Iniciantes (hostinger.com.br)
+MVC - O padrão de arquitetura de software (oficinadanet.com.br)
+
